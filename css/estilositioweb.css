@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: larger;
+  background-color: white;
+  color: black;
+}
+
+main {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: white;
+}
+
+input {
+  margin: 30px;
+}
+
+.parrafos {
+  color: black;
+  margin: 30px;
+  padding: 30px;
+  font-size: larger;
+  text-align: center;
+  justify-content: center;
+  font-family: "Courgette", serif;
+}
+
+#galeria img {
+  height: 300px;
+  width: 100%;
+}
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0 !important;
+}
+#galeria img:hover {
+  border: 5px solid white;
+}
+
+.colorLabel {
+  color: black;
+}
+
+.tamanoLogo {
+  height: 40px;
+  width: 40px;
+}
+
+.marpad,
+.tamanoLogo {
+  margin: 10px;
+  padding: 20px;
+}
+
+.precios {
+  display: flex;
+  justify-content: space-evenly;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+footer {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  color: black;
+  font-size: larger;
+}
+footer .secciones {
+  justify-content: center;
+}
+
+.aside {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 100px;
+  padding: 20px;
+  grid-gap: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.titulos,
+section {
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.colornav {
+  color: white;
+}
+.fondoPrecios {
+  background-color: white;
+}
+.tituloMain {
+  font-family: "Italianno", serif;
+  text-align: center;
+  justify-content: center;
+  font-size: 100px;
+}
+.titulosSecondary {
+  font-family: "Courgette", serif;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+}
+.table {
+  border-color: white;
+}
+.asideFont,
+.preciosFont,
+.proyectosFont {
+  font-family: "Open+Sans+Condensed", serif;
+}
+.aside__titulo {
+  font-size: 100%;
+}
+.contactameFondo {
+  background-color: white;
+}
+.formContactos {
+  text-align: center;
+  justify-content: center;
+}
+.fondoProyectos {
+  background-color: white;
+}
+.fondoTrabajo {
+  background-color: white;
+}
+.fondoIndex {
+  background-color: white;
+}

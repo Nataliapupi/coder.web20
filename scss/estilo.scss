@@ -1,0 +1,101 @@
+$colorfondo: white;
+@mixin colorletra {
+  color: black;
+  font-size: larger;
+}
+@mixin centradotextos {
+  text-align: center;
+  justify-content: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: larger;
+  background-color: $colorfondo;
+  color: black;
+}
+main {
+  background-color: $colorfondo;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: $colorfondo;
+}
+input {
+  margin: 30px;
+}
+.parrafos {
+  color: black;
+  margin: 30px;
+  padding: 30px;
+  @include colorletra;
+  @include centradotextos;
+}
+.galeria__fotos {
+  height: 50%;
+  width: 50%;
+  transition: 500ms;
+}
+.tamanoFotos2 {
+  height: 400px;
+  width: 500px;
+  object-fit: contain;
+} /*
+.tamanoFotos:hover{
+  height: 200%;
+  width: 200%;
+  transform: scale all 2;
+  z-index: 2 ;
+}*/
+.colorLabel {
+  color: black;
+}
+.tamanoLogo {
+  height: 30%;
+  width:30%;
+  @extend .marpad;
+}
+.marpad {
+  margin: 10px;
+  padding: 20px;
+}
+.precios {
+  display: flex;
+  justify-content: space-evenly;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+section {
+  @extend .titulos;
+}
+footer {
+  background-image: linear-gradient(grey, rgb(58, 56, 56));
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  @include colorletra;
+  .secciones {
+    justify-content: center;
+  }
+}
+.aside {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 100px;
+  padding: 20px;
+  grid-gap: 10px;
+  @include centradotextos;
+}
+.titulos {
+  margin: 30px;
+  padding: 30px;
+  @include centradotextos;
+}
+
+.colornav {
+  color: white;
+}
